@@ -1,0 +1,73 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
+html, body{
+    margin: 0;    
+}
+.background-hawaii{
+    background-image: url(../assets/hawaii.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+   padding-bottom: 18.75rem;
+}
+.background-iceland{
+    background-image: url(../assets/iceland.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding-bottom: 18.75rem;
+}
+.background-greece{
+    background-image: url(../assets/greece.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding-bottom: 18.75rem;
+}
+.trip-details__sign{
+    padding-top: 3rem;
+    padding-left: 3rem;
+    font-size: 4rem;
+    font-family: Verdana;
+    color: #fff;
+}
+.iteniary{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 5rem;
+    align-items: flex-end;
+    font-family: Verdana;
+}
+.iteniary__card{
+    width: 285px;
+    height: 400px;
+    margin-right: 3rem;
+    text-align: center;
+    background-color: #FFF;
+}
+.iteniary__day{
+    border-bottom: 2px solid black;
+    font-weight: bold;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1.2rem;
+    color: #393939
+}
+.schedule{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;  
+    color: #464646;
+    padding-left: 0rem;
+}
+.schedule__days{
+    border: 1px solid #fff;
+    border-width: 10px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #f7f7f7;
+    list-style-type: none;
+
+}
